@@ -1,11 +1,9 @@
 # FullStack TypeScript Test
 
 ## Purpose
-
 The purpose of this task is to evaluate your ability to design and implement a simple full-stack program that interacts with a public API. During the interview, we will review your code and ask you questions about your implementation, so please be prepared to discuss your design choices, any challenges you faced, and how you overcame them. We will be looking for clean, maintainable code that follows best practices, as well as your ability to explain your choices and think critically about the problem.
 
 For more information on what we will be looking for at each level, please see the following links:
-
 - [Junior Developers](#junior-developers)
 - [Mid-Level Developers](#mid-level-developers)
 - [Senior Developers](#senior-developers)
@@ -71,10 +69,10 @@ During the interview, we may discuss the following topics related to your implem
 ## Delivery
 
 Once you have completed the task, please follow these steps:
-
-1. Email the link to your forked repository to tyler@mappingindustries.com.
-2. Ensure that your code is properly documented, and include a README.md file with instructions on how to run your code.
-3. Create a pull request to the original repository.
+1. Fork the original repository.
+2. Email the link to your forked repository to tyler@mappingindustries.com.
+3. Ensure that your code is properly documented, and include a README.md file with instructions on how to run your code.
+4. Create a pull request to the original repository.
 
 ## Conclusion
 We hope this task gives you an opportunity to demonstrate your skills as a full-stack developer and showcase your creativity, problem-solving abilities, and best practices in your code. We look forward to seeing your completed task and discussing your approach and thought process during the interview. Good luck!
