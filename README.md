@@ -33,16 +33,6 @@ The web client should be built using React and use the API to interact with the 
 - A way to save results to a "favorites" list.
 - A way to view and remove results from the "favorites" list.
 
-### Bonus Requirements
-
-If you finish the main requirements quickly, consider adding some bonus features to the program, such as:
-
-- User authentication and authorization.
-- Sorting and filtering results by various criteria.
-- Pagination of search results.
-- Displaying additional result information.
-- Unit tests for the server and/or client code.
-
 ## Notes for Candidates
 
 The focus of this task is not just on writing functional code, but also on your ability to explain and defend your decisions, think critically about the problem, and adhere to best practices in your code. During the interview, we will be looking for clean, maintainable code that follows best practices and is scalable. We encourage you to discuss your thought process and approach to the problem, as well as any challenges you faced and how you overcame them.
