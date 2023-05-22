@@ -1,78 +1,70 @@
-# FullStack TypeScript Test
+# Getting Started with Create React App
 
-## Purpose
-The purpose of this task is to evaluate your ability to design and implement a simple full-stack program that interacts with a public API. During the interview, we will review your code and ask you questions about your implementation, so please be prepared to discuss your design choices, any challenges you faced, and how you overcame them. We will be looking for clean, maintainable code that follows best practices, as well as your ability to explain your choices and think critically about the problem.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-For more information on what we will be looking for at each level, please see the following links:
-- [Junior Developers](#junior-developers)
-- [Mid-Level Developers](#mid-level-developers)
-- [Senior Developers](#senior-developers)
+## Available Scripts
 
-## Task Description
+In the project directory, you can run:
 
-Create a simple full-stack program that allows users to search for and save data from a public API of your choice. The program should have a RESTful API and a web client.
+### `npm start`
 
-### API Requirements
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The API should be built using Node.js and Express, and use a public API from the following list: https://github.com/public-apis/public-apis. It should have the following endpoints:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- `GET /api/{resource}?q={query}`: returns an array of results from the public API that match the search query.
-- `POST /api/favorites`: adds a result to the user's favorites list.
-- `GET /api/favorites`: returns the user's favorites list.
-- `DELETE /api/favorites/:id`: removes a result from the user's favorites list.
+### `npm test`
 
-The `POST /api/favorites` endpoint should store the user's favorite results in a database of their choice. You may choose to use a SQL or NoSQL database, or any other database technology you prefer.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Web Client Requirements
+### `npm run build`
 
-The web client should be built using React and use the API to interact with the server. It should have the following features:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- A search bar where users can enter a search query and see a list of matching results.
-- A way to save results to a "favorites" list.
-- A way to view and remove results from the "favorites" list.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Notes for Candidates
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-The focus of this task is not just on writing functional code, but also on your ability to explain and defend your decisions, think critically about the problem, and adhere to best practices in your code. During the interview, we will be looking for clean, maintainable code that follows best practices and is scalable. We encourage you to discuss your thought process and approach to the problem, as well as any challenges you faced and how you overcame them.
+### `npm run eject`
 
-While the web client should be functional and easy to use, it does not need to have a polished or elaborate design. During the interview, you will be evaluated based on your ability to structure the client-side code to make it modular, maintainable, and testable. You should also consider how to handle state management, routing, and API interactions in a way that maximizes performance and user experience. We encourage you to discuss your approach to testing and debugging your code, as well as any best practices or design patterns you would use to ensure high-quality and scalable code.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Assessment
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Junior Developers
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-During the interview, we may discuss the following topics related to your implementation of the project:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- The reasoning behind your choice of public API and database technology
-- How you approached designing and implementing the API endpoints and the web client features.
-- How you handled errors and edge cases in your code.
-- How you tested your code and ensured its correctness.
-- How you would go about adding additional features to the project and scaling it to handle more users.
+## Learn More
 
-### Mid-Level Developers
-During the interview, we may discuss the following topics related to your implementation of the project:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-The reasoning behind your choice of public API and database technology, and how you would handle different use cases and performance requirements.
-- How you designed and implemented the API endpoints and the web client features in a modular and maintainable way, and how you handled errors and edge cases.
-- How you ensured or would ensure the quality and correctness of your code through testing, linting, and code review.
-- How you would go about optimizing the performance and scalability of the project, and how you would handle security concerns such as authentication and data validation.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Senior Developers
-During the interview, we may discuss the following topics related to your implementation of the project:
+### Code Splitting
 
-- The reasoning behind your choice of public API and database technology, and how you would handle different use cases and performance requirements at scale.
-- How you designed and implemented the API endpoints and the web client features in a way that maximizes performance, maintainability, and testability, and how you handled errors and edge cases.
-- How you ensured or would ensure the quality and correctness of your code through testing, code review, and other best practices.
-- How you would go about designing and implementing highly scalable and performant database systems, and how you would handle security concerns such as authentication, authorization, and data privacy.
-- How you would handle more complex scenarios such as real-time updates, caching, and multi-region deployments.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Delivery
+### Analyzing the Bundle Size
 
-Once you have completed the task, please follow these steps:
-1. Fork the original repository.
-2. Email the link to your forked repository to tyler@mappingindustries.com.
-3. Ensure that your code is properly documented, and include a README.md file with instructions on how to run your code.
-4. Create a pull request to the original repository.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## Conclusion
-We hope this task gives you an opportunity to demonstrate your skills as a full-stack developer and showcase your creativity, problem-solving abilities, and best practices in your code. We look forward to seeing your completed task and discussing your approach and thought process during the interview. Good luck!
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
